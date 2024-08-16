@@ -1,0 +1,15 @@
+/.cache
+/data
+/hello-kobo_en_windows_v3_0_0.ppn
+/hi-zeta_en_windows_v3_0_0.ppn
+/jarvis_en_windows_v3_0_0.ppn
+/myrecord.m4a
+/realtimesst.log
+/speech.mp3
+/speech.txt
+/storage
+/test.py
+/threads_db.bak
+/threads_db.dat
+/threads_db.dir
+/voice.py

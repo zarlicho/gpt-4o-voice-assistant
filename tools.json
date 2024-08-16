@@ -1,0 +1,157 @@
+[
+    {
+      "type": "function",
+      "function": {
+        "name": "sendmessage",
+        "description": "help user to send message on whatsapp by given username contact and message want to send",
+        "parameters": {
+            "type": "object",
+            "properties": {
+            "username": {
+                "type": "string",
+                "description": "whatsapp contact username"
+            },
+            "message": {
+                "type": "string",
+                "description": "whatsapp message to be sent"
+            }
+            },
+            "required": [
+            "username",
+            "message"
+            ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "PlaySong",
+        "description": "help user to find his song by given song title, and give song suggestion bassed on user emotional or user mood",
+        "parameters": {
+            "type": "object",
+            "properties": {
+            "SongName": {
+                "type": "string",
+                "description": "song name"
+            }
+            },
+            "required": [
+            "SongName"
+            ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "CreateNewSketch",
+        "description": "Create a new sketch for arduino",
+        "parameters": {
+            "type": "object",
+            "properties": {
+            "NewSketchName": {
+                "type": "string",
+                "description": "NewSketchName is New Skecth file for arduino program .ino, create a new sketch file by given user project"
+            }
+            },
+            "required": [
+            "NewSketchName"
+            ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "WriteCodeToSketch",
+        "description": "Write arduino program(code) to Sketch project",
+        "parameters": {
+            "type": "object",
+            "properties": {
+            "SketchFileName": {
+                "type": "string",
+                "description": "SketchFileName is Skecth file name for arduino program .ino, write program(code) to this sketch file"
+            },
+            "Code": {
+                "type": "string",
+                "description": "code program for arduino. this parameter is used for save generated code to sketch"
+            }
+            },
+            "required": [
+            "SketchFileName",
+            "Code"
+            ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "CheckLib",
+        "description": "Check required arduino library before installing new library",
+        "parameters": {
+            "type": "object",
+            "properties": {
+            "libname": {
+                "type": "string",
+                "description": "List of arduino Library name sperate by , "
+            }
+            },
+            "required": [
+            "libname"
+            ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "DownloadLib",
+        "description": "Download required arduino library",
+        "parameters": {
+            "type": "object",
+            "properties": {
+            "libname": {
+                "type": "string",
+                "description": "List of arduino Library name sperate by , "
+            }
+            },
+            "required": [
+            "libname"
+            ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "Upload",
+        "description": "Upload to sketch to board",
+        "parameters": {
+            "type": "object",
+            "properties": {
+            "sketchFileName": {
+                "type": "string",
+                "description": "upload sketch file to board"
+            }
+            },
+            "required": [
+            "sketchFileName"
+            ]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "OpenMonitor",
+        "description": "this function is used for open serial monitor",
+        "parameters": {
+            "type": "object",
+            "properties": {},
+            "required": []
+        }
+      }
+    }
+]

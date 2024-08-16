@@ -1,0 +1,213 @@
+{
+    "nextPageToken": "2",
+    "pageSize": 0,
+    "outlets": [
+        {
+            "key": "tenants/gofood/outlets/f1cdb6ec-e4fe-4490-9d9b-d23e26e2f82a",
+            "tenantUid": "gofood",
+            "uid": "f1cdb6ec-e4fe-4490-9d9b-d23e26e2f82a",
+            "core": {
+                "key": "tenants/gofood/outlets/f1cdb6ec-e4fe-4490-9d9b-d23e26e2f82a",
+                "tenantUid": "gofood",
+                "uid": "f1cdb6ec-e4fe-4490-9d9b-d23e26e2f82a",
+                "displayName": "Nasi Goreng Abang Ade, Kompleks Inkopad",
+                "description": "",
+                "highlights": [],
+                "location": {
+                    "latitude": -6.455797291249985,
+                    "longitude": 106.75119291990997
+                },
+                "countryCode": "ID",
+                "timeZone": "Asia/Jakarta",
+                "serviceArea": {
+                    "id": 1,
+                    "name": "",
+                    "zoneId": 0,
+                    "zoneName": ""
+                },
+                "status": 1,
+                "openPeriods": [
+                    {
+                        "day": 1,
+                        "startTime": {
+                            "hours": 18,
+                            "minutes": 0,
+                            "seconds": 0,
+                            "nanos": 0
+                        },
+                        "endTime": {
+                            "hours": 23,
+                            "minutes": 30,
+                            "seconds": 0,
+                            "nanos": 0
+                        }
+                    },
+                    {
+                        "day": 3,
+                        "startTime": {
+                            "hours": 17,
+                            "minutes": 0,
+                            "seconds": 0,
+                            "nanos": 0
+                        },
+                        "endTime": {
+                            "hours": 23,
+                            "minutes": 45,
+                            "seconds": 0,
+                            "nanos": 0
+                        }
+                    },
+                    {
+                        "day": 4,
+                        "startTime": {
+                            "hours": 18,
+                            "minutes": 0,
+                            "seconds": 0,
+                            "nanos": 0
+                        },
+                        "endTime": {
+                            "hours": 23,
+                            "minutes": 59,
+                            "seconds": 0,
+                            "nanos": 0
+                        }
+                    },
+                    {
+                        "day": 5,
+                        "startTime": {
+                            "hours": 0,
+                            "minutes": 0,
+                            "seconds": 0,
+                            "nanos": 0
+                        },
+                        "endTime": {
+                            "hours": 0,
+                            "minutes": 15,
+                            "seconds": 0,
+                            "nanos": 0
+                        }
+                    },
+                    {
+                        "day": 5,
+                        "startTime": {
+                            "hours": 17,
+                            "minutes": 30,
+                            "seconds": 0,
+                            "nanos": 0
+                        },
+                        "endTime": {
+                            "hours": 23,
+                            "minutes": 30,
+                            "seconds": 0,
+                            "nanos": 0
+                        }
+                    },
+                    {
+                        "day": 6,
+                        "startTime": {
+                            "hours": 18,
+                            "minutes": 0,
+                            "seconds": 0,
+                            "nanos": 0
+                        },
+                        "endTime": {
+                            "hours": 23,
+                            "minutes": 45,
+                            "seconds": 0,
+                            "nanos": 0
+                        }
+                    },
+                    {
+                        "day": 7,
+                        "startTime": {
+                            "hours": 16,
+                            "minutes": 0,
+                            "seconds": 0,
+                            "nanos": 0
+                        },
+                        "endTime": {
+                            "hours": 23,
+                            "minutes": 15,
+                            "seconds": 0,
+                            "nanos": 0
+                        }
+                    }
+                ],
+                "createTime": "2019-06-29T14:11:06.013Z",
+                "brandUid": "75b4e02c-7095-4507-82f3-dcdfc5a84423",
+                "idempotencyKey": "",
+                "badges": [],
+                "notes": "",
+                "blockedReason": "",
+                "shortLink": "https://gofood.link/u/PjRPk",
+                "nextCloseTime": "2024-06-08T16:45:00.000Z",
+                "brand": {
+                    "key": "tenants/gofood/brands/75b4e02c-7095-4507-82f3-dcdfc5a84423",
+                    "tenantUid": "gofood",
+                    "uid": "75b4e02c-7095-4507-82f3-dcdfc5a84423",
+                    "displayName": "Dapur Mama Qizi",
+                    "description": "",
+                    "idempotencyKey": ""
+                },
+                "tags": [
+                    {
+                        "key": "tenants/gofood/tags/CUISINE_ANEKA_NASI",
+                        "tenantUid": "gofood",
+                        "uid": "CUISINE_ANEKA_NASI",
+                        "displayName": "Rice",
+                        "description": "",
+                        "taxonomy": 2,
+                        "parentKey": ""
+                    },
+                    {
+                        "key": "tenants/gofood/tags/CUISINE_MINUMAN",
+                        "tenantUid": "gofood",
+                        "uid": "CUISINE_MINUMAN",
+                        "displayName": "Beverages",
+                        "description": "",
+                        "taxonomy": 2,
+                        "parentKey": ""
+                    },
+                    {
+                        "key": "tenants/gofood/tags/CUISINE_BAKMIE",
+                        "tenantUid": "gofood",
+                        "uid": "CUISINE_BAKMIE",
+                        "displayName": "Noodles",
+                        "description": "",
+                        "taxonomy": 2,
+                        "parentKey": ""
+                    }
+                ]
+            },
+            "delivery": {
+                "enabled": false,
+                "maxRadiusKm": 0,
+                "maxRouteKm": 0,
+                "maxItems": 0,
+                "eta": {
+                    "seconds": 1980,
+                    "nanos": 0
+                },
+                "distanceKm": 2.54,
+                "deliverable": true
+            },
+            "pickup": {
+                "enabled": true
+            },
+            "ratings": {
+                "average": 4.6,
+                "total": 0
+            },
+            "maf": {
+                "enabled": true,
+                "autoAcceptEnabled": false
+            },
+            "media": {
+                "logoImgUrl": "",
+                "coverImgUrl": "https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/c5c34190-d4eb-40d8-b1f6-f39ead6edca4_Go-Biz_20221118_191300.jpeg"
+            },
+            "view": 0,
+            "priceLevel": 2,
+            "brandOutletsGrouped": false,
+            "offers": []
+},

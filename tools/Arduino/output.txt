@@ -1,0 +1,2 @@
+Already installed Adafruit BusIO@1.16.1
+Already installed Adafruit PN532@1.3.3
